@@ -252,7 +252,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "lib_GSE"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -403,6 +405,42 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -453,7 +491,7 @@
         "uuid": "e6209737-6366-4e74-ba8a-b1f2da647986"
       }
     ],
-    "used_designators": "U1,R1-6,J1-2,D1-4,#PWR1-13",
+    "used_designators": "U1,U12,R1-12,J1-4,D1-6,#PWR1-24,C1-3,Q2-3,SW1-2",
     "variants": []
   },
   "sheets": [
